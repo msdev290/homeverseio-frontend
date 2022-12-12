@@ -1,0 +1,53 @@
+@font-face {
+    font-family: Montserrat-Black;
+    src: url('assets/font/Montserrat/Montserrat-Black.ttf');
+}
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url('assets/font/Montserrat/Montserrat-Regular.ttf');
+}
+@font-face {
+    font-family: Montserrat-SemiBold;
+    src: url('assets/font/Montserrat/Montserrat-SemiBold.ttf');
+}
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url('assets/font/Montserrat/Montserrat-Bold.ttf');
+}
+.react-tabs__tab {
+    background-color: rgba(17, 18, 20, .5) !important;
+    border: none !important;
+    color: #68676E !important;
+    font-family: Montserrat-Regular;
+    font-weight: bold;
+    padding: 15px 20px !important;
+    border-radius:  10px 10px 0px 0px;
+}
+
+.react-tabs__tab--selected {
+    background-color: #111214 !important;
+    background: #111214 !important;
+    border: none !important;
+    color: white !important;
+    font-family: Montserrat-SemiBold;
+    border-radius:  10px 10px 0px 0px !important;
+}
+
+.react-tabs__tab-list {
+    border: none !important;
+    gap: 15px !important;
+    display: flex !important;
+    margin: 0px !important;
+}
+
+.react-tabs__tab-panel {
+    background-color: #111214 !important;
+    min-height: 710px;
+    max-height: 100% !important;
+    padding: 40px 20px;
+    border-radius: 0px 20px 15px 15px;
+}
+
+.Toastify__toast-body{
+    font-family: Montserrat-Regular;
+}
